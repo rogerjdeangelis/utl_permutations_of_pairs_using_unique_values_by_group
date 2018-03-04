@@ -26,21 +26,21 @@ Permutations of pairs using unique values by group. Keywords: sas sql join merge
     =====
 
      SD1.HAVE total obs=7
-                           | RULES
-                           |
-       GROUP    VARIABLES  |  V1  V2
-                           |
-         W          1      |  1    2
-         W          2      |  1    3
-         W          3      |  2    1
-                           |  2    3
-                           |  3    1
-                           |  3    2
-                           |
-         X          1      |
-         X          2      |
-         X          3      |
-         X          4      |
+                             | RULES
+                             |
+       GROUP CROSSOVER_PAIRS |  V1  V2
+                             |
+         W          1        |  1    2
+         W          2        |  1    3
+         W          3        |  2    1
+                             |  2    3
+                             |  3    1
+                             |  3    2
+                             |
+         X          1        |
+         X          2        |
+         X          3        |
+         X          4        |
 
       EXAMPLE OUTPUT
 
